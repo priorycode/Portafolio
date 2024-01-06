@@ -23,7 +23,7 @@
 <body data-body>
     <header class="header">
         <div class="contenedor header__contenedor">
-            <a href="/" class="logo">Jhordev</a>
+            <a href="/" class="logo" onclick="route()">Jhordev</a>
             <nav class="nav" data-nav>
                 <ul class="list__nav">
                     <!-- <li class="items"><a href="project.html" class="link">Proyectos</a></li> -->
@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <main class="contenedor">
+    <main class="contenedor" id="main-page">
 
         <section class="container__hero">
             <div class="hero__info">
@@ -252,8 +252,8 @@
 
             </div>
             <div class="container__all">
-                <a href="project.html">Todos los Proyectos</a>
-                <a href="project.html">
+                <a href="/project" onclick="route()">Todos los Proyectos</a>
+                <a href="/project" onclick="route()">
                     <svg xmlns="http://www.w3.org/2000/svg" height="1em"
                         viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <style>
@@ -498,6 +498,7 @@
     </footer>
 
     <script src="build/js/bundle.min.js"></script>
+    <script src="build/js/router.js"></script>
 
 </body>
 
