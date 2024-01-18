@@ -19,6 +19,7 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1751856308888746"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/06610a6ec1.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body data-body>
@@ -67,11 +68,11 @@
 
     <main class="main">
 
-        <section class="hero contenedor">
-            <p class="an-title">Hey, Soy</p>
-            <h1 class="title-nom">Jhordy Mondragon</h1>
-            <p class="about">> Desarrollador Front-end</p>
-            <p class="description">
+        <section class="hero contenedor" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="an-title tracking-in-expand">Hey, Soy</p>
+            <h1 class="title-nom tracking-in-expand">Jhordy Mondragon</h1>
+            <p class="about tracking-in-expand">> Desarrollador Front-end</p>
+            <p class="description" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                 Con una sólida trayectoria de 1 año en la industria tecnológica, me he consolidado como un
                 especialista apasionado y dedicado en el campo del desarrollo de software. Mi enfoque principal radica
                 en la <strong>creación y el diseño de aplicaciones web y móviles</strong>, donde busco constantemente
@@ -82,7 +83,8 @@
             </p>
             <div class="btn-call">
                 <a href="https://wa.me/51959659501?text=Hola%20Jhordy%2C%20me%20gustar%C3%ADa%20trabajar%20contigo%20en%20un%20proyecto"
-                    target="_blank" class="link">Saludame
+                    target="_blank" class="link wobble-hor-top" data-aos="fade-right" data-aos-duration="1000"
+                    data-aos-delay="200">Saludame
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="8" viewBox="0 0 34 8" fill="#1A1A1A">
                         <path
                             d="M33.3536 4.35355C33.5488 4.15829 33.5488 3.84171 33.3536 3.64645L30.1716 0.464466C29.9763 0.269204 29.6597 0.269204 29.4645 0.464466C29.2692 0.659728 29.2692 0.976311 29.4645 1.17157L32.2929 4L29.4645 6.82843C29.2692 7.02369 29.2692 7.34027 29.4645 7.53553C29.6597 7.7308 29.9763 7.7308 30.1716 7.53553L33.3536 4.35355ZM0 4.5H33V3.5H0V4.5Z" />
@@ -92,10 +94,10 @@
         </section>
 
 
-        <section class="projects contenedor" id="project">
-            <h2 class="title-section">proyectos destacados</h2>
+        <section class="projects contenedor" id="project" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="title-section" data-aos="fade-right" data-aos-duration="1000" >proyectos destacados</h2>
             <div class="contenedor-project">
-                <div class="card-project">
+                <div class="card-project"  >
                     <div class="img-card">
                         <img src="build/img/landing-motocuy.jpg" alt="Imagen del proyectoo">
                     </div>
@@ -125,7 +127,7 @@
                         <span class="tex">html-css-js</span>
                     </div>
                 </div>
-                <div class="card-project">
+                <div class="card-project" >
                     <div class="img-card">
                         <img src="build/img/dashboard-motocuy.jpg" alt="Imagen del proyectoo">
                     </div>
@@ -159,9 +161,9 @@
             </div>
         </section>
 
-        <div class="line"></div>
+        <div class="line"  data-aos="fade-up" data-aos-duration="1000"></div>
 
-        <section class="skills contenedor">
+        <section class="skills contenedor"  data-aos="fade-up" data-aos-duration="1000">
             <h2 class="title-section">habilidades</h2>
             <div class="contenedor-skills">
                 <div class="skill">
@@ -223,10 +225,10 @@
             </div>
         </section>
 
-        <div class="line"></div>
+        <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
     </main>
 
-    <footer class="footer contenedor">
+    <footer class="footer contenedor" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="title-section">Contacto</h2>
         <div class="social-media">
             <a target="_blank"
@@ -258,6 +260,10 @@
 
     <script src="build/js/bundle.min.js"></script>
     <script src="build/js/router.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
